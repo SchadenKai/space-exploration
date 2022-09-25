@@ -27,6 +27,7 @@ button p{
     font-weight: 500;
     transition: color 1s, scale 0.15s;
 }
+
 button img{
     height: 19px;
     margin-right: 10px;
@@ -40,7 +41,7 @@ button img{
     font-size: 20px;
     font-weight: 500;
     color: white;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .title img{
     margin-right: 15px;
@@ -50,22 +51,22 @@ button img{
 .navigations{
     display: flex;
     flex-direction: row;
-    min-width:300px;
+    width: 200px;
+    min-width:100px;
     justify-content: space-between;
     align-items: center;
     height: inherit;
-    margin-right: 60px;
+    margin-right: 20px;
+    margin-left: 30px;
 }
 button{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
     margin: 0;
     background-color: transparent;
     border: none;
     cursor: pointer;
-    height: 50px;
     padding: 0 10px;
 }
 button p::before{
@@ -78,6 +79,4 @@ button:hover p{
 #home-button{
     margin-right: 1px;
 }
-#planets-button{
-    margin-right: 1px;
-}
+
