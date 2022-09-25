@@ -25,6 +25,7 @@ button p{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 500;
+    transition: color 1s, scale 0.15s;
 }
 button img{
     height: 19px;
@@ -66,7 +67,13 @@ button{
     cursor: pointer;
     height: 50px;
     padding: 0 10px;
-
+}
+button p::before{
+    color: white;
+}
+button:hover p{
+    color: rgb(120, 123, 250);
+    scale: 1.01;
 }
 #home-button{
     margin-right: 1px;
